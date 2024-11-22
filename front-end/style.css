@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: lightcyan;
+}
+.Game{
+ display:flexbox;
+ background-color:lightgoldenrodyellow;
+ width:54vw;
+ height:50vh;
+}
+.box{
+    padding:1em;
+    height:5em;
+    background-color: khaki;
+    border-radius:10px;
+}
+.tittle{
+    padding-left: 2em;
+    padding-right:2em;
+    background-color: orange;
+    border-radius: 10px;
+}
+#bet_amount{
+    border: 0;
+    height: 2em;
+    width: 10em;
+    font-size:1em;   
+}
+.button{ 
+    height:2.4em;
+    width:5.5em;
+    background-color: transparent;
+    border-width:0.1em;
+    border-radius: 20px;
+    transition: border-radius 1s;
+}
+.hit{
+    border-color:orangered;
+}
+.stand{
+    border-color: rgb(63, 184, 106);
+}
+.button:hover{ 
+    border-radius: 5px;
+}
+.hit:active{
+    background-color:orangered; 
+}
+.stand:active{
+    background-color: rgb(63, 184, 106);
+}
+.bank{
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding-left:5vw;
+    padding-right:5vw;
+}

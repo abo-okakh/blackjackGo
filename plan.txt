@@ -1,0 +1,19 @@
+Start Game
+Player sets a bet and press's start
+Player Get 2 cards
+Bot Get 2 cards [one of them is hidden]
+
+Player keeps hitting until he either bust or stands
+Bot Keeps playing until he reaches 17 or wins or busts
+
+
+Check()
+Player press's start ==> Get Game(bet) -- response => 4 card's
+Check() 
+Player Hit's ==> GetCard
+Check()
+Player Stands ==> BotPlay() ==> check how many cards does that bot have if 17< then stand if 17> then hit
+Check()
+
+if Player wins = bet*2
+if Bot wins = PlayerBank-bet

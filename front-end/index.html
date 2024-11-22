@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
+    <title>BlackJackGo</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+
+        <div class="Game">
+            <center>
+                <div class="bot box">
+                    <span class="tittle">Bot</span>
+                    <br>
+                    <div class="hand">
+                        <span class="total" id="bot_total"></span>
+                    </div>
+                </div>
+                <br>
+                <div class="box player">
+                    <span class="tittle">Player</span>
+                    <br>
+                    <span class="bank" id="player_bank">20$</span>
+                    <br>
+                    <div class="hand">
+                        <span class="total" id="player_total"></span>
+                    </div>
+                    <br>
+                    
+                    </div>
+                        <div class="tools">
+                        <input type="number" min="5" max="999999999999999999" placeholder="bet" id="bet_amount">
+                        <br>
+                        <button class="hit button" id="hit">Hit</button>
+                        <button class="stand button" id="stand">Stand</button>
+                    </div>
+            </center>
+        </div> 
+    </center>
+</body>
+</html>
